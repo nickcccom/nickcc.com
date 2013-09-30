@@ -1,0 +1,677 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="{keywords}" />
+<meta name="description" content="{description}" />
+<link type="text/css" href="css/campaign.css" rel="stylesheet" media="all" />
+<link rel="shortcut icon" href="images/icon.ico" />
+<title>&nbsp;NICK - 年度作品</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+<script src="js/ajaxupload.js" type="text/javascript"></script>
+<script src="js/jquery.blockui.js" type="text/javascript"></script>
+<script src="js/zeroclipboard/zeroclipboard.js" type="text/javascript"></script>
+<script src="js/common.js" type="text/javascript"></script>
+
+</head>
+<body id="">
+<div id="head">
+	<div class="box">
+		<h2 class="png"><a href="/">nick</a></h2>
+		<ul class="menu">
+			<li class="m1"><a href="index.html"/>首页</a></li>
+			<li class="m2"><a href="javascript:void(0);" onclick="lapiao();">留言</a></li>
+			<li class="m3"><a href="javascript:void(0);" onclick="lock_byClass('detail');">关于</a></li>
+			<li class="m4"><a  href="http://weibo.com/u/1768157440" target="_blank" >微博</a></li>
+			<li class="m5"><a href="index.html" onclick="scrollTo(0,690)">作品</a></li>
+		</ul>
+	</div>
+</div>
+<div class="src13" ></div>
+
+<div class="box">
+	<div style="height:50px"></div>
+	<div class="cleft">
+    <div class="FeaturesDetail">
+    <div class="navhead">
+				<p><a href="/cars/0/0/0">作品</a> &gt; <a href="/cars/b00052/0/0">丝塔芙</a> 
+		
+				</p>
+			</div>
+            
+            
+    <div class="Introduction">
+				<h1>丝塔芙</h1>
+			</div>   
+    <div class="hui">
+									<a href="08.html" class="r">下一张</a>
+						<a href="index.html">回索引页</a>
+			</div>     
+    <div class="Des">
+						<a href="08.html">
+						<img class="detail0" src="img/z7.png"></a>
+			</div>                
+    </div>
+    </div>
+
+</div>
+
+	</div>
+<a id="unable_upload"  href="javascript:void(0);" class="fupload ajaxUpload isAuth"></a>
+
+<div class="rightbar_pop">
+	<!--提示信息-->
+	<div class="message">
+		<a class="close" href="javascript:void(0);"></a>
+		<span>没时间开发这功能，请谅解！</span>
+		<a class="pop_button isAuth" id="lapiao_upload" href="javascript:void(0);">抱歉</a>
+	</div>
+	<!--预览-->
+	<div class="preview_box">
+		<a class="left_button_h" id="left_button" href="javascript:void(0);"></a>
+		<a class="right_button_r" id="right_button" href="javascript:void(0);"></a>
+		<div class="photo_preview">
+			<img class="avatar"/>
+			<span>微博名</span>
+			<img class="photo_big"/>
+			<div class="tickets_box">
+			</div>
+			<!-- <a class="to_wb" href="javascript:void(0);" >转发到微博</a> -->
+		</div>
+	</div>
+	<!--预览1-->
+		<!--关于我-->
+	<div class="detail" >
+		<span>关于我</span>
+		<a class="close" href="javascript:void(0);"></a>
+		<div class="intro">NICK</div>
+		<p class="para1">绘画专业出身，转入网站设计已近3年，熟悉电子商务网站B2C和B2B网站的建设流程、对网站用户操作体验、点击流程、组织架构等功能都有很深厚的了解，并熟悉如何设计出适合搜索引擎的B2B、B2C网站。 同时，对插画UI设计，也有深厚经验；
+         <br/>
+         <br/>
+        </p>
+       
+		<div class="way">个人经历</div>
+		<p class="para2">懂CSS及DIV，之前带领设计团队，与前端.net工程师以及php工程师合作完成众多知名企业的项目，并与网站运营部、品牌部合作，一起运营公司旗下3个电子商务网站和客户的两个电子商务网站，极其重视团队合作，有很强的团队协作能力；！</p>
+		<p class="para3">有若干知名品牌下属电子商务网站建设及运营经验，涉及行业：奢侈品、服饰、高档洋酒、百货等。 并为本土各行业知名公司、部分500强跨国公司设计大中华区以及国外上线网站；</p>
+	
+	</div>
+	<!--上传照片-->
+	<div class="upload_photo">
+		<span>上传照片</span>
+		<div class="close"></div>
+		<div class="photo_box">
+			<img src=""/>
+		</div>
+		<a class="pop_button to_wb" href="javascript:void(0);">发布完成</a>
+		<a class="pop_button upload_again ajaxUpload" id="reUpload" href="javascript:void(0);">重新上传</a>
+	</div>
+	<!--拉票-->
+	<div class="lapiao_box">
+		<span>我要拉票</span>
+		<div class="close"></div>
+		<div class="photo_box">
+			<img src=""/>
+		</div>
+		<a class="pop_button to_wb" href="javascript:void(0);">转发到微博</a>
+	</div>
+	<!--转发成功后 绑定账户-->
+	<div class="binding_account" id="d_clip_container">
+		<span>上传照片</span>
+		<div class="close"></div>
+		<div class="step">。</div>
+		<div class="blinding_status1">
+			<span>输入您的 账户</span>
+			<div class="account_input">
+				<input/>
+			</div>
+			<a class="blinding" href="javascript:void(0);">确认</a>
+			<a class="pop_button signin" href="../yunio.com/default.htm" target="_blank">立即注册</a>
+		</div>
+		<div class="blinding_status2">
+			<span>您输入的账户不存在</span>
+			<a class="pop_button to_status1" href="javascript:void(0);">重试</a>
+			<a class="pop_button signin" href="../yunio.com/default.htm" target="_blank">立即注册</a>
+		</div>
+		<div class="blinding_status3">
+			<span>空间已经添加成功</span>
+		</div>
+		<div class="blinding_status4">
+			<span>您已经参加过本次活动</span>
+		</div>
+		<div class="step invite_title">2.立刻邀请你的朋友来给你投票。</div>
+		<div class="url_input">
+			<input disabled="disabled"/>
+		</div>	
+		<a id="d_clip_button" class="pop_button copy">复制</a>
+		<a class="pop_button to_wb">转发到微博</a>
+	</div>
+
+</div>
+
+</body>
+<script>
+var objCN = {};
+var headerMoveTime = 250;
+var loadingFlag = true;
+var token = '';
+var weibo_path = '';
+var pageNumber = 1;
+var sortType = 0;
+var str_m = ' <div class="node">'
+		+				'<div class="node_head">'
+		+				'<div class="node_head_photo"><img src="../s.yunio.com/public/getcontent/token/{path}" width="224" height="169" border="0"></div>'
+		+					'<div class="node_head_status">'
+		+						'<div class="node_head_status_num">{like_num}</div>'
+		+						'<div class="node_head_status_like" id="heart_color_change" name="{uid}"></div>'
+				+					'</div>'
+		+				'</div>'
+		+				'<div class="node_content">'
+		+					'<div class="node_content_avatar"><a href="../weibo.com/{uid}" target="_blank"><img src="{avatar_path}" width="36" height="36" border="0"></a></div>'
+		+					'<div class="node_content_name">{username}</div>'
+		+				'</div>'
+		+			'</div>';
+var flag_load = false;
+var header01left = 0;
+var send_weibo_flag = 0;
+var send_lapiao_flag = 0;
+
+function lapiao(){
+	if (token == '') {
+		    $.unblockUI();
+		 	$.blockUI({ message: $('.message'),
+				css: { 
+					top:  '50%', 
+					left: '50%', 
+					marginLeft: - $('.message').width()/2, 
+					marginTop: - $('.message').height()/2,
+					width: '512px',
+					border: 'none',
+					background : 'transparent',
+					cursor: 'default'
+					},
+				overlayCSS:{
+					cursor: 'default'
+				}
+
+			});
+	}else{
+		$(".lapiao_box img").attr("src","../s.yunio.com/public/getcontent/token/"+token);
+  		lock_byClass("lapiao_box");
+	}
+
+}
+function lock_loading(){
+	$.blockUI({ 
+		message: '<img src="images/loading_.gif" /> <br/>loading...', 
+		css: { 
+			border: '3px solid #ccc', 
+			padding: '15px', 
+			width: '170px',
+			left:'50%',
+			'margin-left':'-80px', //这里的值为什么框的一半
+			backgroundColor: '#fff', 
+			'border-radius': '10px', 
+			opacity: .5, 
+			color: '#000' 
+		} 
+	});
+};
+function unlock(){
+	$.unblockUI();
+};
+function lock_byClass(c){
+	$.blockUI({ message: $('.'+c),
+		css: { 
+			top:  '50%', 
+			left: '50%', 
+			marginLeft: - $('.'+c).width()/2, 
+			marginTop: - $('.'+c).height()/2,
+			width: $('.'+c).width()+'px',
+			border: 'none',
+			background : 'transparent',
+			cursor: 'default'
+			},
+		overlayCSS:{
+			cursor: 'default'
+		}
+
+	});
+}
+function lock_byId(id){
+	$.blockUI({ message: $('#'+c),
+		css: { 
+			top:  '50%', 
+			left: '50%', 
+			marginLeft: - $('#'+c).width()/2, 
+			marginTop: - $('#'+c).height()/2,
+			width: $('#'+c).width()+'px',
+			border: 'none',
+			background : 'transparent',
+			cursor: 'default'
+			},
+		overlayCSS:{
+			cursor: 'default'
+		}
+
+	});
+}
+function loading(){
+	lock_byClass("photo_preview1");
+	$('.blockOverlay').attr('title','Click to unblock').click($.unblockUI);
+}
+
+
+$("#right_button").live("click",function(){
+	if($(this).hasClass("right_button_h")){
+		return;
+	}
+	var after = $(".active").next();
+	if(!after.next().hasClass("node")) {
+		$(this).removeClass().addClass("right_button_h");
+	}
+	if($("#left_button").hasClass("left_button_h"))
+	{
+		$("#left_button").removeClass().addClass("left_button_r");
+	}
+	var avatar = $(".node_content_avatar img",after).attr("src");
+	var photo = $(".node_head_photo img",after).attr("src");
+	var name = $(".node_content_name",after).html();
+	var tickets = $(".node_head_status_num",after).html();
+	var heart = 0;
+	if($("#heart_color_change",after).hasClass("node_head_status_liked")){
+		heart = 1;
+	};
+	$(".node").removeClass("active");
+	after.addClass("active");
+	$(".photo_preview .avatar").attr("src",avatar);
+	$(".photo_preview .photo_big").attr("src",photo);
+	$(".photo_preview span").html(name);
+	$(".photo_preview .tickets_box span").html(tickets);
+	if(heart){
+		$("#preview_heart").removeClass().addClass("preview_box_liked");
+	}
+	else{
+		$("#preview_heart").removeClass().addClass("preview_box_like");
+	}
+});
+
+
+//m
+function go(n){
+	if(n){
+		$('#go0').removeClass().addClass("button").addClass("zhuixinshangchuan");
+		$('#go1').removeClass().addClass("button").addClass("depiaozhuigao_active");
+	}else{
+		$('#go0').removeClass().addClass("button").addClass("zhuixinshangchuan_active");
+		$('#go1').removeClass().addClass("button").addClass("depiaozhuigao");
+	}
+	flag_load = false;
+	$('.node').remove();
+	pageNumber = 1;
+	sortType = n;
+	flag_load = true;
+	setTimeout("getData();",500);
+}
+
+function foreachNode(data){
+	var str_temp = '';
+	//'<div class="node_head_status_liked"></div>'
+	
+	for(var i=0;i<data.length;i++){
+		var s = str_m;
+		s = s.replace('{like_num}',data[i].like_num);
+		s = s.replace('{path}',data[i].path);
+		s = s.replace('{uid}',data[i].uid);
+		s = s.replace('{avatar_path}',data[i].avatar_path);
+		s = s.replace('{username}',data[i].username);
+		s = s.replace('{uid}',data[i].uid);
+				$(".orderlist").append(s);
+	}
+}
+
+
+function pre1like(uid){
+	$.ajax({
+				type: "POST",
+				url: "vote",
+				data: "u=" + uid,
+				success: function(msg){
+					if(msg == 'success'){
+						$(".photo_preview1 .tickets_box .preview_box_like").removeClass().addClass('preview_box_liked');
+						$(".photo_preview1 .tickets_box span").html($(".photo_preview1 .tickets_box span").html()- -1);
+					}
+				}
+				
+		});
+}
+
+function initWin(){
+	
+	//alert( $(window).width() );
+
+
+	var currentWidth = $(window).width();
+	if(currentWidth>1200){
+		$('.top_bg').css('width','1200px');
+		$('.header').css('width',currentWidth + 'px');
+		header01left = Math.round((currentWidth-990)/2);
+
+		$('.header01').css('left',header01left + 'px');
+		$('.header02').css('left',(header01left- -990) + 'px');
+	}else if(currentWidth>990){
+		$('.top_bg').css('width',currentWidth + 'px');
+		$('.header').css('width',currentWidth + 'px');
+		header01left = Math.round((currentWidth-990)/2);
+
+		$('.header01').css('left',header01left + 'px');
+		$('.header02').css('left',(header01left- -990) + 'px');
+	}else{
+		$('.top_bg').css('width','990px');
+		$('.header').css('width','990px');
+		header01left = 0;
+		$('.header01').css('left','0px');
+		$('.header02').css('left','990px');
+	}
+
+	//alert( header01left );
+}
+
+ $(function(){
+		initWin();
+	getData();
+	$(".header02").css('opacity',0);
+
+	if($.browser.msie && $.browser.version=='8.0') $(".header02").css('display','none');
+
+ 	 			$("#fupload").removeClass("ajaxUploadR");
+ 			$('#ajaxUploadF').removeClass("ajaxUploadB"); 
+ 			$('#lapiao_upload').removeClass("ajaxUploadL"); 
+ 			$('#reUpload').removeClass("ajaxUploadRe");	
+	
+	//m
+	$(".node_head_status_like").live('click',function (){
+		lock_loading();
+		var _this = $(this);
+		$.ajax({
+						type: "POST",
+						url: "vote",
+						data: "u=" + _this.attr('name'),
+						success: function(msg){
+							if(msg == 'success'){
+								_this.removeClass("node_head_status_like").addClass('node_head_status_liked');
+								_this.prev().html(_this.prev().html()- -1);
+							}
+							unlock();
+						}
+		});
+	});
+	$(".photo_preview%20.like.htm").live('click',function(){
+		var _this = $(this);
+		var u = $(".active").children(".node_head").children(".node_head_status").children(".node_head_status_like").attr('name');
+		if(!u) u = $(".active").children(".node_head").children(".node_head_status").children(".node_head_status_liked").attr('name');
+		$.ajax({
+				type: "POST",
+				url: "vote",
+				data: "u=" + u,
+				success: function(msg){
+					if(msg == 'success'){
+						$(".active").children(".node_head").children(".node_head_status").children(".node_head_status_like").removeClass("node_head_status_like").addClass('node_head_status_liked');
+						$(".active").children(".node_head").children(".node_head_status").children(".node_head_status_num").html($(".active").children(".node_head").children(".node_head_status").children(".node_head_status_num").html()- -1);
+						_this.next().children("span").html(_this.next().children("span").html()- -1);
+						_this.next().children(".preview_box_like").removeClass("preview_box_like").addClass('node_head_status_liked');
+					}
+				}
+		});
+	});
+
+
+
+	$(window).resize(function() {
+		initWin();
+	});
+
+
+});
+
+$(".isAuth").live("click",function(){
+				window.location="../www.yunio.com/index/sina/activities/11";
+	  	  	if(token != ''){
+  		$(".photo_box img").attr("src","../s.yunio.com/public/getcontent/token/"+token);
+  		lock_byClass("upload_photo");
+  	}
+});
+
+function ajaxUpload(className){
+	return;	if(className != 'ajaxUploadRe' && token != ''){
+		$(className).addClass('havePic');
+	}else{
+		var button = $('.'+className), interval;    
+		objCN[className] = new AjaxUpload(button, {
+		        action: 'upload', 
+		        name: 'file',
+		        'className': className+'_Q',
+		        onSubmit : function(file, ext){
+		            this.disable();
+		            lock_loading(); 
+		        },          
+		        onComplete: function(file, response){   
+		            var json_str = eval("(" + response + ")");
+		            if(json_str['err'] != "")
+		            {
+		                this.enable();
+		                alert(json_str['err']);
+						unlock();
+						return;
+		            }
+		            $(".photo_box img").attr("src","../s.yunio.com/public/getcontent/token/"+json_str['token']);
+		            token = json_str['token'];
+		            weibo_path = json_str['weibo_path'];
+		            unlock();
+		            lock_byClass('upload_photo');											
+		            window.clearInterval(interval);
+					go(0);
+		            this.enable();   
+		            uploadDisable();
+		        }
+
+		    });
+	}	
+}
+
+function uploadDisable(){
+			objCN.ajaxUploadR.disable();
+		objCN.ajaxUploadB.disable();
+		objCN.ajaxUploadL.disable();
+		
+}
+
+function moveRight(){	
+	$(".header01").css('opacity',1);
+	$(".header02").css('opacity',0);
+	$(".header01").animate({opacity:"0",left:(header01left-990) + 'px'},headerMoveTime);
+	$(".header02").animate({opacity:"1",left:header01left + 'px'},headerMoveTime);
+	if($.browser.msie && $.browser.version=='8.0'){
+		$(".header01").css('display','none');
+		$(".header02").css('display','block');
+	}
+}
+
+function moveLeft(){
+	$(".header01").css('opacity',0);
+	$(".header02").css('opacity',1);
+	$(".header01").animate({left:header01left + 'px',opacity:"1"},headerMoveTime);
+	$(".header02").animate({left:(header01left+990) + 'px',opacity:"0"},headerMoveTime);
+	if($.browser.msie && $.browser.version=='8.0'){
+		$(".header01").css('display','block');
+		$(".header02").css('display','none');
+	}
+}
+function getData(){
+	return ;
+	var cPageNumber = pageNumber;
+	pageNumber += 1;
+	$(".loading").show();
+	$.ajax({
+		type: "GET",
+		url: "getdata",
+		data: "page=" + cPageNumber + "&t=" + sortType,
+		dataType: "json",
+		success: function(msg){
+			if(msg != null && msg.length>0){
+				foreachNode(msg);
+				flag_load = true;
+			}else flag_load = false;
+			loadingFlag = true;
+			$(".loading").hide();
+		}
+	});
+}
+
+//处理 屏幕小于 1200px
+//window.onchange()
+ $(window).bind("scroll",function(){
+	if($(document).scrollTop()>700){
+		topLocation = $(document).scrollTop()+150;
+		$(".right_bar").css({ position: "fixed", top: '150px', right: '0px'});
+		$(".fupload").css({ position: "fixed", top: '150px', right: '0px'});
+		$(".fupload").show();
+		$(".right_bar").fadeIn("slow");
+	}else if($(document).scrollTop()<690){
+		$(".fupload").hide();
+		$(".right_bar").fadeOut();
+	}
+
+	if( $(document).scrollTop() + $(window).height() > $(document).height() - 250 && loadingFlag && flag_load) {
+
+		getData();
+		loadingFlag = false;
+	}
+ });
+
+ $(".upload_photo%20.to_wb.htm").click(function(){
+ 	unlock();
+ 	lock_loading();
+ 	var str_weibo_flag = '';
+ 	if(send_weibo_flag) str_weibo_flag = '！';
+ 	$.ajax({
+		type: "POST",
+		url: "index/weibo",
+		data: 'token='+ weibo_path+'&content=我和「极品前任」分手啦！@Yunio，谢谢你送的11.11GB免费空间，还为我的光棍节约会全程买单＋赞助往返机票！大家快来看看我的分手照吧！'+str_weibo_flag+'_25E7_258C_259C_25E7_258C_259C_25E8_25BF_2599_25E5_259B_259B_25E4_25B8_25AA_25E4_25BA_25BA_25E6_25880F72A70D18',
+		success: function(msg){
+			unlock();
+			if(msg == '1'){//成功
+				send_weibo_flag = (send_weibo_flag+1) %2;
+				lock_loading();
+				$.ajax({
+					type: "POST",
+					url: "Cash/check",
+					success: function(msg){
+						unlock();
+						if(msg == "1"){
+							show_message(4);
+						}
+						else{
+							show_message(1);
+						}
+
+						var slfjasdljfl = "";
+
+						$(".url_input input").val("index/index/u/"+slfjasdljfl);						
+						lock_byClass('binding_account');
+						copyText();
+					}
+				});
+			}
+			else {
+				alert("转发失败 请重试");
+				lock_byClass('upload_photo');
+			}
+		}
+	});
+ });
+  $(".binding_account%20.to_wb,.lapiao_box%20.to_wb.htm").click(function(){
+  	// unlock();
+  	// lock_loading();
+  	var slfjasdljfl = "";
+  	var str_lapiao_flag = '';
+  	if(send_lapiao_flag) str_lapiao_flag = '！';
+
+ 	$.ajax({
+		type: "POST",
+		url: "index/weibo",
+		data: "token="+ weibo_path+"&content=请大家来帮我和我U盘的分手照投个票！我赢了就可以约会！"+str_lapiao_flag+"我的照片在这里：http://1111.yunio.com/index/index/u/"+slfjasdljfl,
+		success: function(msg){
+			send_lapiao_flag = (send_lapiao_flag+1)%2;
+			alert("发送成功！");
+		}
+	});
+ });
+
+   $(".preview_box%20.to_wb.htm").click(function(){
+  	// unlock();
+  	// lock_loading();
+  	var slfjasdljfl = "";
+ 	$.ajax({
+		type: "POST",
+		url: "index/weibo",
+		data: "token="+ weibo_path+"&content=请大家来帮我和我U盘的分手照投个票！我赢了就可以约会！我的照片在这里：http://1111.yunio.com/index/index/u/"+slfjasdljfl,
+		success: function(msg){
+			
+		}
+	});
+ 	});
+
+ $(".copy").click(function(){
+ 	// copyText();
+ });
+
+
+function show_message(n){
+	for(var i=1;i<5;i++){
+		if (i == n) {
+			$(".blinding_status"+i).show();
+		}
+		else{
+			$(".blinding_status"+i).hide();
+		}
+	}
+}
+function copyText(){
+	var clip = null;
+	clip = new ZeroClipboard.Client();
+	clip.setHandCursor( true );	
+	clip.setText($(".url_input input").val());
+	clip.glue( 'd_clip_button', 'd_clip_container' );
+}
+ // //绑定账户——确定
+ $(".blinding").click(function(){
+	$.ajax({
+		type: "POST",
+		url: "cash",
+		data: "account="+ $('.account_input input').val(),
+		success: function(msg){
+			if(msg == 'none'){//账户不存在
+				show_message(2);
+			}
+			else if(msg == 'bound'){//账户已经绑定
+				aler("改账号已被绑定，请使用其他 账户");
+ 				show_message(1);
+				//show_message(4);
+			}
+			else if(msg == 'success'){
+				show_message(3);
+			}
+			else{
+				aler("添加空间失败 请重试");
+ 				show_message(1);
+			}
+		}
+	});
+ 	
+ });	
+
+ $(".close").click(function(){
+ 	$.unblockUI();
+ });
+ </script>
+</html>

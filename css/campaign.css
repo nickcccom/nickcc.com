@@ -1,0 +1,1086 @@
+[hidden] { display: none; }
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html, button, input, select, textarea { font-family: sans-serif; color: #222; }
+body { margin: 0; font-size: 1em; line-height: 1.4; }
+::-moz-selection { background: rgba(34, 167, 255, 0.41); color: #fff; text-shadow: none; }
+::selection { background: rgba(34, 167, 255, 0.41); color: #fff; text-shadow: none; }
+a { color: #00e; text-decoration:none;}
+abbr[title] { border-bottom: 1px dotted; }
+b, strong { font-weight: bold; }
+ul, ol { margin:0; padding: 0; list-style:none;}
+nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+svg:not(:root) { overflow: hidden; }
+form { margin: 0; }
+fieldset { border: 0; margin: 0; padding: 0; }
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
+button, input { line-height: normal; }
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; *overflow: visible; }
+button[disabled], input[disabled] { cursor: default; }
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; *width: 13px; *height: 13px; }
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+textarea { overflow: auto; vertical-align: top; resize: vertical; }
+input:valid, textarea:valid {  }
+input:invalid, textarea:invalid { background-color: #f0dddd; }
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+body {
+	background:url('../img/bg_bottom.png');
+}
+.src12 {
+	height:800px;
+	background:url('../img/bg.png');
+}
+.src13 {
+	height:50px;
+	background:url('../img/bg01.png');
+}
+.top_bg {
+	position:relative;
+	width:1200px;
+	height:440px;
+	background:url('../img/bg_top.jpg');
+}
+.header {
+	width:990px;
+	height:730px;
+	margin:auto;
+	position:relative;
+	top:-440px;
+	overflow:hidden;
+}
+.header01 {
+	width:990px;
+	height:730px;
+	overflow:hidden;
+	float:left;
+	position:absolute;
+}
+.header02 {
+	width:990px;
+	height:730px;
+	overflow:hidden;
+	float:left;
+	position:absolute;
+}
+.header01_main {
+	margin-top:72px;
+	width:958px;
+	height:558px;
+	background:url('http://cache.mina.com.cn/nickwbpic.png');
+}
+.header01_main_button1{
+	width:152px;
+	height:49px;
+	position:absolute;
+	left:160px;
+	top:504px;
+	z-index:100;
+}
+.header01_main_button2{
+	width:175px;
+	height:54px;
+	position:absolute;
+	left:316px;
+	top:480px;
+	z-index:99;
+}
+.header01_main_button3{
+	width:179px;
+	height:55px;
+	position:absolute;
+	left:146px;
+	top:611px;
+	z-index:100;
+}
+.header01_main_button4{
+	width:162px;
+	height:58px;
+	position:absolute;
+	left:313px;
+	top:497px;
+	z-index:99;
+}
+.header01_main_button5{
+	width:177px;
+	height:93px;
+	position:absolute;
+	left:620px;
+	top:483px;
+}
+.button {
+	background:url('../img/image.png');
+	background-repeat: no-repeat;
+	display: block;
+	text-indent: -9999px;
+}
+a.header01_main_button1_a {
+	width:152px;
+	height:49px;
+	background-position: 0 -657px
+}
+a.header01_main_button1_a:hover {background-position: -215px -657px}
+a.header01_main_button2_a {width:175px; height:54px; background-position: 0 -724px}
+a.header01_main_button2_a:hover {background-position: -215px -724px}
+a.header01_main_button3_a {width:179px; height:55px; background-position: 0 -807px}
+a.header01_main_button3_a:hover {background-position: -216px -807px}
+a.header01_main_button4_a {width:162px; height:58px; background-position: 0 -878px}
+a.header01_main_button4_a:hover {background-position: -217px -878px}
+a.header01_main_button5_a {width:177px; height:93px; background-position: 0 -942px}
+a.header01_main_button5_a:hover {background-position: -217px -942px}
+.header02_main {
+	margin-top:34px;
+	width:950px;
+	height:655px;
+	background:url('../img/image.png') no-repeat 0px -1054px;
+}
+.header02_main_button1{
+	width:164px;
+	height:58px;
+	position:absolute;
+	left:60px;
+	top:487px;
+}
+.header02_main_button2{
+	width:160px;
+	height:58px;
+	position:absolute;
+	left:662px;
+	top:604px;
+}
+a.header02_main_button1_a {width:164px; height:58px; background-position: 0px -1710px}
+a.header02_main_button1_a:hover {background-position: -215px -1710px}
+a.header02_main_button2_a {width:160px; height:58px; background-position: 0px -1773px}
+a.header02_main_button2_a:hover {background-position: -215px -1773px}
+.mmlist {
+	width:990px;
+	height:1922px;
+	background:url('../img/info.png');
+	margin:auto;
+	position:relative;
+	top:-440px;
+}
+.orderlist {
+	width:990px;
+	margin:auto;
+}
+.orderlist_title {
+	width:990px;
+	height:99px;
+	overflow:hidden;
+	float: left;
+}
+.orderlist_title_left {
+	float:left;
+	width:152px;
+	margin-top:34px;
+}
+.orderlist_title_right {
+	float:left;
+	width:838px;
+	margin-top:58px;
+}
+.fengshuoxiangche {
+	width:152px;
+	height:49px;
+	background-position: 0px -2064px;
+}
+.shouhui {
+	width:152px;
+	height:49px;
+	background-position: 0px -2180px;
+}
+.shouji {
+	width:152px;
+	height:49px;
+	background-position: 0px -2120px;
+}
+
+a.depiaozhuigao{
+	margin-right:20px;
+	float:right;
+	width:78px;
+	height:18px;
+	background-position: 0px -2210px;
+	overflow:hidden;
+}
+a.depiaozhuigao:hover {background-position: 0px -2233px}
+a.depiaozhuigao_active {
+	margin-right:20px;
+	float:right;
+	width:78px;
+	height:18px;
+	background-position: 0px -2233px;
+	overflow:hidden;
+}
+a.zhuixinshangchuan{
+	margin-right:20px;
+	float:right;
+	width:78px;
+	height:18px;
+	background-position: -98px -2210px;
+	overflow:hidden;
+}
+a.zhuixinshangchuan:hover {background-position: -98px -2233px}
+a.zhuixinshangchuan_active {
+	margin-right:20px;
+	float:right;
+	width:78px;
+	height:18px;
+	background-position: -98px -2233px;
+	overflow:hidden;
+}
+.node {
+	width:246px;
+	height:277px;
+	float:left;
+}
+.node_head {
+	float:left;
+	width:242px;
+	height:207px;
+	background:url('../img/image.png') no-repeat 0px -2278px;
+}
+.node_head_photo {
+	margin:8px auto 0px auto;
+	width:224px;
+	height:169px;
+	cursor:pointer;
+}
+.node_head_status {
+	margin:8px auto auto auto;
+	width:224px;
+}
+.node_head_status_like {
+	margin-right:4px;
+	float:right;
+	width:15px;
+	height:12px;
+	overflow:hidden;
+	background:url('../img/image.png') no-repeat 0px -2190px;
+	cursor:pointer;
+}
+.node_head_status_liked {
+	margin-right:4px;
+	float:right;
+	width:15px;
+	height:12px;
+	overflow:hidden;
+	background:url('../img/image.png') no-repeat -17px -2190px;
+}
+.node_head_status_num {
+	float:right;
+	font-size:12px;
+	color:#959595;
+	height:12px;
+	overflow:hidden;
+	line-height:12px;
+	font-weight:bold;
+}
+.node_content {
+	width:246px;
+	height:70px;
+	float:left;
+}
+.node_content_avatar {
+	float:left;
+	margin:8px 8px auto 8px;
+	width:36px;
+	height:36px;
+	background:url('../img/image.png') no-repeat 0px -2493px;
+}
+.node_content_name {
+	margin-top:8px;
+	height:36px;
+	line-height:36px;
+	font-size:14px;
+	font-weight:normal;
+	color:#666;
+	text-shadow:0 1px 1px #ffffff;
+	text-align: center;
+	font-family: "微软雅黑";
+}
+.loading {
+	float:left;
+	margin:auto;
+	width:990px;
+	height:100px;
+	line-height:100px;
+	text-align:center;
+	display:none;
+	font-size:18px;
+	color:#000000;
+}
+.right_bar{
+	position:absolute;
+	display:none;
+	width:169px;
+	height:273px;
+	/*background:url('../img/image.png') no-repeat 0px -2557px;*/
+}
+.fupload{
+	height:46px;
+	width:169px;
+	z-index:1;
+	display:block;
+}
+
+.upload_photo > .close,.binding_account > .close,.message > .close,.lapiao_box > .close{
+	width: 34px;
+	height: 34px;
+	background: url('../img/campaign.png') no-repeat 0 -1039px;	
+	position: absolute;
+	left: 454px;
+	top:16px;
+	cursor: pointer;
+}
+.upload_photo > .close:hover{
+	background-position: -45px -1039px;
+}
+.binding_account > .close:hover{
+	background-position: -45px -1039px;
+}
+.message > .close:hover{
+	background-position: -45px -1039px;
+}
+.lapiao_box > .close:hover{
+	background-position: -45px -1039px;
+}
+.upload_photo > .pop_button,.binding_account > .pop_button,.message > .pop_button,.lapiao_box > .pop_button{
+	width: 134px;
+	height: 43px;
+	line-height: 38px;
+	background: url('../img/campaign.png') no-repeat 0 0;	
+	position: absolute;
+	font-family: Hei;
+	font-size: 22px;
+	font-weight: bold;
+	color: #fff;
+	text-shadow:1px 1px #531529;
+}
+.upload_photo > .pop_button:hover,.binding_account > .pop_button:hover,.message > .pop_button:hover,.lapiao_box > .pop_button:hover{
+	background-position: -134px 0;
+}
+.upload_photo > span,.binding_account > span,.lapiao_box > span{
+	font-family: Hei;
+	font-size: 22px;
+	font-weight: bold;
+	color: #9b9b9b;
+	text-shadow:1px 1px #fff;
+	display: inline;
+	position: absolute;
+	left:26px;
+	top: 20px;
+}
+.upload_photo >.to_wb{
+	left: 266px;
+	top:364px;
+	background-position: 0px -56px;
+}
+.lapiao_box >.to_wb{
+	left: 103px;
+	top:364px;
+	background-position: 0px -56px;
+}
+.upload_photo >.to_wb:hover,.lapiao_box >.to_wb:hover{
+	background-position: -134px -56px;
+}
+
+.message{
+	width:516px;
+	height: 261px;
+	position: relative;
+	display: none;
+	background: url('../img/campaign.png') no-repeat 0 -2565px;
+}
+.message > .pop_button{
+	position: absolute;
+	left: 191px;
+	top:163px;
+}
+.message > span{
+	width: 516px;
+	height: 34px;
+	text-align: center;
+	position: absolute;
+	top:115px;
+	left: 0;
+	font-family:Helvetica,Hei,SimHei,SimSun,FangSong,Verdana, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #9b9b9b;
+	text-shadow:1px 1px #fff;
+	position: absolute;
+
+}
+
+.upload_photo,.lapiao_box{
+	position: relative;
+	display: none;
+	width:512px;
+	height: 443px;
+	background: url('../img/campaign.png') no-repeat 0 -291px;
+}
+.upload_photo >.photo_box,.lapiao_box >.photo_box{
+	width: 363px;
+	height: 272px;
+	background: url('../img/campaign.png') no-repeat 0 -742px;		
+	position: absolute;
+	left: 79px;
+	top:76px;
+}
+.upload_photo >.photo_box img,.lapiao_box >.photo_box img{
+	width: 345px;
+	height: 252px;
+	position: absolute;
+	left: 8px;
+	top:8px;
+}
+
+
+.upload_photo >.upload_again{
+	left: 103px;
+	top:364px;
+	background-position: 0 0px;
+}
+.upload_photo >.upload_again:hover{
+	background-position: -134px 0px;
+}
+
+
+.binding_account{
+	position: relative;
+	display: none;
+	width:526px;
+	height: 431px;
+	background: url('../img/campaign.png') no-repeat 0 -2003px;
+}
+.binding_account > .close{
+	position: absolute;
+	left: 454px;
+	top:16px;
+}
+.binding_account > .close:hover{
+	background-position: -45px -1039px;
+}
+.binding_account > .step{
+	font-family:Helvetica,Hei,SimHei,SimSun,FangSong,Verdana, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #9b9b9b;
+	text-shadow:1px 1px #fff;
+	position: absolute;
+	left: 37px;
+	top:93px;
+}
+.binding_account > .invite_title{
+	top: 286px;
+}
+.blinding_status1,.blinding_status2,.blinding_status3,.blinding_status4{
+	display: none;
+/*	position: absolute;
+	top: 60px;
+	left: 0;
+	height:200px;
+	width: 512px;
+	border-bottom: 1px dashed #9b9b9b;*/
+}
+.blinding_status1 > span{
+	font-family: Helvetica,Hei,SimHei,SimSun,FangSong,Verdana, Arial, sans-serif;
+	font-size: 16px;
+	color: #9b9b9b;
+	position: absolute;
+	left: 57px;
+	top:115px;
+}
+
+.blinding_status1 > .account_input{
+	width: 212px;
+	height: 43px;
+	position: absolute;
+	left: 57px;
+	top:160px;
+	background: url('../img/campaign.png') no-repeat 0 -237px;
+
+}
+.blinding_status1 > .account_input input{
+	width: 192px;
+	height: 43px;
+	border: 0;
+	padding:0 10px;
+	overflow: hidden;
+}
+.blinding_status1 > .blinding{
+	left: 277px;
+	top:162px;
+	width: 89px;
+	height: 43px;
+	background: url('../img/campaign.png') no-repeat 0 -136px;
+	line-height: 38px;
+	position: absolute;
+	font-family: Hei;
+	font-size: 22px;
+	font-weight: bold;
+	color: #fff;
+	text-shadow:1px 1px #531529;
+}
+.blinding_status1 > .blinding:hover{
+	background-position:-91px -136px;
+}
+.blinding_status1 > .signin{
+	background: url('../img/campaign.png') no-repeat 0 -56px;
+	line-height: 38px;
+	position: absolute;
+	font-family: Hei;
+	font-size: 22px;
+	font-weight: bold;
+	color: #fff;
+	text-shadow:1px 1px #531529;
+	left:370px;
+	top:162px;
+	background-position: 0px -56px;
+	width: 134px;
+	height: 43px;
+}
+.blinding_status1 > .signin:hover{
+	background-position: -134px -56px;
+}
+
+
+
+.blinding_status2 > span{
+	font-family: Helvetica,Hei,SimHei,SimSun,FangSong,Verdana, Arial, sans-serif;
+	font-size: 28px;
+	color: #be385d;
+	font-weight: bold;
+	text-shadow:2px 2px #fff;
+	position: absolute;
+	left: 0;
+	top:136px;
+	width: 512px;
+	text-align: center;
+}
+.blinding_status2 > .to_status1{
+	line-height: 38px;
+	position: absolute;
+	font-family: Hei;
+	font-size: 22px;
+	font-weight: bold;
+	color: #fff;
+	text-shadow:1px 1px #531529;
+	width: 134px;
+	height: 43px;
+	left:122px;
+	top:188px;
+	background: url('../img/campaign.png') no-repeat 0 0px;
+}
+.blinding_status2 > .to_status1:hover{
+	background-position: -134px 0px;
+}
+.blinding_status2 > .signin{
+	width: 134px;
+	height: 43px;
+	position: absolute;
+	line-height: 38px;
+	left: 268px;
+	top:188px;
+	background: url('../img/campaign.png') no-repeat 0px -56px}
+.blinding_status2 > .signin:hover{
+	background-position:-134px -56px;
+}
+
+
+.blinding_status3 > span{
+	font-family: Helvetica,Hei,SimHei,SimSun,FangSong,Verdana, Arial, sans-serif;
+	font-size: 28px;
+	color: #1297c9;
+	font-weight: bold;
+	text-shadow:2px 2px #fff;
+	position: absolute;
+	left: 0px;
+	top:150px;
+	width: 512px;
+	text-align: center;
+}
+.blinding_status4 > span{
+	font-family: Helvetica,Hei,SimHei,SimSun,FangSong,Verdana, Arial, sans-serif;
+	font-size: 28px;
+	color: #be385d;
+	font-weight: bold;
+	text-shadow:2px 2px #fff;
+	position: absolute;
+	left: 0;
+	top:150px;
+	width: 512px;
+	text-align: center;
+}
+
+.binding_account > .url_input{
+	width: 415px;
+	height: 43px;
+	background: url('../img/campaign.png') no-repeat 0 -185px;
+	position: absolute;
+	left: 59px;
+	top: 323px;
+}
+.binding_account > .url_input > input{
+	width: 415px;
+	height: 43px;
+	border: 0;
+	padding:0 10px; 
+	overflow: hidden;
+}
+.binding_account > .copy{
+	left: 120px;
+	top: 380px;
+	background-position: 0 0;
+}
+.binding_account > .copy:hover{
+	background-position: -134px 0;
+}
+.binding_account > .to_wb{
+	background-position: 0 -56px;
+	left: 272px;
+	top: 380px;
+}
+.binding_account > .to_wb:hover{
+	background-position: -134px -56px;
+}
+
+.preview_box{
+	width: 709px;
+	height: 554px;
+	position: relative;
+	background: transparent;
+	display:none;
+	
+}
+
+.left_button_h{
+	width: 54px;
+	height: 55px;
+	background: url('../img/campaign.png') no-repeat 0 -1100px;
+	position: absolute;
+	left: 0;
+	top:223px;
+}
+.right_button_h{
+	width: 54px;
+	height: 55px;
+	background: url('../img/campaign.png') no-repeat 0px -1165px;
+	position: absolute;
+	left: 655px;
+	top:223px;
+}
+
+.active{
+	border:none;
+}
+
+.left_button_r{
+	width: 54px;
+	height: 55px;
+	background: url('../img/campaign.png') no-repeat -60px -1100px;
+	position: absolute;
+	left: 0px;
+	top:223px;
+}
+.right_button_r{
+	width: 54px;
+	height: 55px;
+	background: url('../img/campaign.png') no-repeat -60px -1165px;
+	position: absolute;
+	left: 655px;
+	top:223px;
+}
+.photo_preview,.photo_preview1{
+	width: 593px;
+	height: 554px;
+	position: absolute;
+	left: 60px;
+	top: 0;
+	background: url('../img/campaign.png') no-repeat 0px -1291px;
+}
+.photo_preview1{
+	display: none;
+}
+.photo_preview .avatar,.photo_preview1 .avatar{
+	width: 36px;
+	height: 36px;
+	position: absolute;
+	left: 10px;
+	top: 12px;
+	border: none;
+
+}
+.photo_preview span,.photo_preview1 span{
+	position: absolute;
+	left: 51px;
+	top:23px;
+	font-size: 12px;
+	font-family:Helvetica,Hei,SimHei,SimSun,FangSong,Verdana, Arial, sans-serif; ;
+	font-weight:bold;
+	color: #636363;
+	text-shadow:1px 1px #fff;
+	width: 300px;
+	text-align: left;
+	overflow: hidden;
+
+}
+.photo_preview1 .ranking{
+	position: absolute;
+	left: auto;
+	right: 15px;
+	width: 200px;
+	font-size: 16px;
+	text-align: right;
+	overflow: hidden;
+}
+
+.photo_preview .photo_big,.photo_preview1 .photo_big{
+	position: absolute;
+	left: 16px;
+	top: 55px;
+	width: 560px;
+	height: 420px;
+	border:none;
+}
+.photo_preview .like,.photo_preview1 .like{
+	line-height: 38px;
+	font-family: Helvetica,Hei,SimHei,SimSun,FangSong,Verdana, Arial, sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	color: #fff;
+	text-shadow:1px 1px #531529;
+	text-align: center;
+	position: absolute;
+	left: 13px;
+	top: 489px;
+	width: 134px;
+	height: 43px;
+	background: url('../img/campaign.png') no-repeat 0px 0px;
+}
+.photo_preview .like:hover,.photo_preview1 .like:hover{
+	background-position:-134px 0px;
+}
+.photo_preview .to_wb,.photo_preview1 .to_wb{
+	line-height: 38px;
+	font-family: Helvetica,Hei,SimHei,SimSun,FangSong,Verdana, Arial, sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	color: #fff;
+	text-shadow:1px 1px #531529;
+	text-align: center;
+	position: absolute;
+	left: 166px;
+	top: 489px;
+	width: 134px;
+	height: 43px;
+	background: url('../img/campaign.png') no-repeat 0px -56px;
+}
+.photo_preview .to_wb:hover,.photo_preview1 .to_wb:hover{
+	background-position:-134px -56px;
+}
+.photo_preview .tickets_box,.photo_preview1 .tickets_box{
+	position: absolute;
+	top: 500px;
+	right: 23px;
+	width: auto;
+	max-width: 200px;
+	overflow: hidden;
+	text-align: right;
+}
+.photo_preview .tickets_box .preview_box_like,.photo_preview1 .tickets_box .preview_box_like{
+	position: relative;
+	top: 0px;
+	float: left;
+	background: url("../img/image.png") no-repeat scroll 0 -2190px transparent;
+    height: 12px;
+    margin-right: 4px;
+    overflow: hidden;
+    width: 15px;
+}
+.photo_preview .tickets_box .preview_box_liked,.photo_preview1 .tickets_box .preview_box_liked{
+	position: relative;
+	top: 0px;
+	float: left;
+	background: url("../img/image.png") no-repeat scroll -17px -2190px transparent;
+    height: 12px;
+    margin-right: 4px;
+    overflow: hidden;
+    width: 15px;
+}
+.photo_preview .tickets_box span,.photo_preview1 .tickets_box span{
+	position: relative;
+	left: 0;
+	top:0px;
+	font-size: 12px;
+	line-height: 12px;
+	font-family:Helvetica,Hei,SimHei,SimSun,FangSong,Verdana, Arial, sans-serif; ;
+	font-weight:bold;
+	color: #959595;
+	overflow: hidden;
+	width: auto;
+	text-align: left;
+	float: left;
+	margin-right: 4px;
+	display: inline-block;
+}
+
+.detail{
+	width:526px;
+	height:531px;
+	position: relative;
+	display: none; 
+	background: url('../img/campaign.png') no-repeat 0px -2867px;
+}
+.detail > .close {
+	width: 34px;
+	height: 34px;
+	background: url('../img/campaign.png') no-repeat 0 -1039px;	
+	position: absolute;
+	left: 454px;
+	top:16px;
+	cursor: pointer;
+}
+.detail > .close:hover{
+	background-position: -45px -1039px;
+}
+.detail span{
+	font-family: Helvetica,Hei,SimHei,SimSun,FangSong,Verdana, Arial, sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	color: #9b9b9b;
+	text-shadow:1px 1px #fff;
+	position: absolute;
+	left:26px;
+	top: 20px;
+}
+.detail .intro,.detail .way{
+	font-family: Hei;
+	font-size: 20px;
+	font-weight: bold;
+	color: #9b9b9b;
+	text-shadow:1px 1px #fff;
+	position: absolute;
+	left:38px;
+	top: 81px;
+}
+.detail .way{
+	top:228px;
+}
+.detail p{
+	font-family: Helvetica,Hei,SimHei,SimSun,FangSong,Verdana, Arial, sans-serif;
+	font-size: 12px;
+	color: #9b9b9b;
+	position: absolute;
+	width: 440px;
+	left: 56px;
+	text-align: left;
+}
+.detail .para1{
+	top:100px;
+}
+.detail .para2{
+	top:252px;
+}
+.detail .para3{
+	top:300px;
+}
+.detail .para4{
+	top:360px;
+}
+.detail .para1 a{
+	color:#5bacc7;
+}
+#index #head {
+    display: none;
+}
+#head {
+    left: 0;
+    position: fixed;
+    top: 0;
+    z-index: 199;
+}
+#head {
+	border-bottom: 1px solid #CDCDCD;
+	border-top: 2px solid #020202;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	width: 100%;
+	background-attachment: scroll;
+	background-image: url(../images/bgbg.png);
+	background-repeat: repeat;
+	background-position: 0 0;
+}
+#head .box {
+    display: block;
+    height: 68px;
+    overflow: hidden;
+    position: relative;
+	
+}
+.box {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 980px;
+}
+
+
+#head h2 {
+    background: url("../images/logo.png") no-repeat scroll 0 0 transparent;
+    left: 0;
+    text-indent: -9999px;
+}
+#head h2, #head h2 a {
+    display: block;
+    height: 75px;
+    overflow: hidden;
+    width: 208px;
+	margin: 0;
+}
+a:link, a:visited {
+    color: #666666;
+    text-decoration: none;
+}
+#head .menu {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+}
+.menu {
+    display: block;
+    height: 30px;
+    overflow: hidden;
+}
+p, ul, li {
+    border: 0 none;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    float: left;
+    margin-left: 7px;
+    position: relative;
+}
+.menu li.m1 a {
+    background-position: 12px 0;
+}
+
+.menu li a {
+    background: url("../images/btn_menu.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    display: block;
+    font-size: 0;
+    height: 24px;
+    line-height: 0;
+    text-indent: -9999px;
+    width: 50px;
+}
+.menu li a:hover {
+    border-bottom: 7px solid #fff;
+}
+.menu li.m1 a {
+    background-position: 12px 0;
+}
+.menu li.m2 a {
+    background-position: -45px 0;
+}
+.menu li.m3 a {
+    background-position: -102px 0;
+}
+.menu li.m4 a {
+    background-position: -159px 0;
+}
+.menu li.m5 a {
+    background-position: -215px 0;
+}
+.menu li.m6 a {
+    background-position: -273px 0;
+}
+
+.box {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 980px;
+}
+
+.isfull .cleft, .isfull .FeaturesDetail {
+    width: 100%;
+}
+.cleft {
+    display: inline;
+    float: left;
+    width: 980px;
+}
+.isfull .cleft, .isfull .FeaturesDetail {
+    width: 100%;
+}
+.FeaturesDetail {
+    overflow: hidden;
+    padding-bottom: 50px;
+    width: 980px;
+}
+.FeaturesDetail .navhead {
+    display: block;
+    padding-bottom: 10px;
+	font-size:12px;
+	font-family:"微软雅黑";}
+HTML, BODY, DIV, SPAN, APPLET, OBJECT, IFRAME, H1, H2, H3, H4, H5, H6, P, BLOCKQUOTE, A, ABBR, ACRONYM, ADDRESS, BIG, CITE, CODE, DEL, DFN, EM, FONT, IMG, INS, KBD, Q, S, SAMP, STRIKE, SUB, SUP, TT, VAR, DL, DT, DD, OL, UL, LI, FIELDSET, FORM, LABEL, LEGEND, TABLE, CAPTION, TBODY, TFOOT, THEAD, TR, TH, TD {
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+a:link, a:visited {
+    color: #666666;
+    text-decoration: none;
+}
+
+.FeaturesDetail .Introduction {
+    border-bottom: 2px solid #555555;
+    border-top: 2px solid #555555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    padding: 15px 0;
+}
+.FeaturesDetail .Introduction h1 {
+    margin-bottom: 0;
+}
+.FeaturesDetail .Introduction h1 {
+	color: #222222;
+	font-size: 21px;
+	font-weight: 500;
+	line-height: 1.2;
+	font-family: "微软雅黑";
+}
+
+.hui {
+    margin: 10px 0;
+    text-align: center;
+	font-family: "微软雅黑";
+	font-size:12px;
+	
+}
+.hui .r {
+    float: right;
+}
+.Des {
+    text-align: center;
+}
+.Des {
+    line-height: 1.5;
+	background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #D4D4D4;
+    padding: 20px;
+}
