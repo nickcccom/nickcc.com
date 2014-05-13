@@ -28,15 +28,15 @@ input:invalid, textarea:invalid { background-color: #f0dddd; }
 .clearfix:after { clear: both; }
 .clearfix { *zoom: 1; }
 body {
-	background:url('../img/bg_bottom.png');
+	background:url('../img/bg_bottom.png?dsjkdjsk');
 }
 .src12 {
 	height:800px;
-	background:url('../img/bg.png');
+	background:url('../img/bg.png?dsjkdjsk');
 }
 .src13 {
 	height:50px;
-	background:url('../img/bg01.png');
+	background:url('../img/bg01.png?dsjkdjsk');
 }
 .top_bg {
 	position:relative;
@@ -70,7 +70,7 @@ body {
 	margin-top:72px;
 	width:958px;
 	height:558px;
-	background:url('http://cache.mina.com.cn/nickwbpic.png');
+	background:url('http://cache.mina.com.cn/nickwbpic.png?dsjkdjsk');
 }
 .header01_main_button1{
 	width:152px;
@@ -112,7 +112,7 @@ body {
 	top:483px;
 }
 .button {
-	background:url('../img/image.png');
+	background:url('../img/image.png?dsjkdjsk');
 	background-repeat: no-repeat;
 	display: block;
 	text-indent: -9999px;
@@ -135,7 +135,7 @@ a.header01_main_button5_a:hover {background-position: -217px -942px}
 	margin-top:34px;
 	width:950px;
 	height:655px;
-	background:url('../img/image.png') no-repeat 0px -1054px;
+	background:url('../img/image.png?dsjkdjsk') no-repeat 0px -1054px;
 }
 .header02_main_button1{
 	width:164px;
@@ -158,7 +158,7 @@ a.header02_main_button2_a:hover {background-position: -215px -1773px}
 .mmlist {
 	width:990px;
 	height:1922px;
-	background:url('../img/info.png');
+	background:url('../img/info.png?dsjkdjsk');
 	margin:auto;
 	position:relative;
 	top:-440px;
@@ -242,7 +242,7 @@ a.zhuixinshangchuan_active {
 	float:left;
 	width:242px;
 	height:207px;
-	background:url('../img/image.png') no-repeat 0px -2278px;
+	background:url('../img/image.png?dsjkdjsk') no-repeat 0px -2278px;
 }
 .node_head_photo {
 	margin:8px auto 0px auto;
@@ -260,7 +260,7 @@ a.zhuixinshangchuan_active {
 	width:15px;
 	height:12px;
 	overflow:hidden;
-	background:url('../img/image.png') no-repeat 0px -2190px;
+	background:url('../img/image.png?dsjkdjsk') no-repeat 0px -2190px;
 	cursor:pointer;
 }
 .node_head_status_liked {
@@ -269,7 +269,7 @@ a.zhuixinshangchuan_active {
 	width:15px;
 	height:12px;
 	overflow:hidden;
-	background:url('../img/image.png') no-repeat -17px -2190px;
+	background:url('../img/image.png?dsjkdjsk') no-repeat -17px -2190px;
 }
 .node_head_status_num {
 	float:right;
@@ -290,7 +290,7 @@ a.zhuixinshangchuan_active {
 	margin:8px 8px auto 8px;
 	width:36px;
 	height:36px;
-	background:url('../img/image.png') no-repeat 0px -2493px;
+	background:url('../img/image.png?dsjkdjsk') no-repeat 0px -2493px;
 }
 .node_content_name {
 	margin-top:8px;
@@ -319,7 +319,7 @@ a.zhuixinshangchuan_active {
 	display:none;
 	width:169px;
 	height:273px;
-	/*background:url('../img/image.png') no-repeat 0px -2557px;*/
+	/*background:url('../img/image.png?dsjkdjsk') no-repeat 0px -2557px;*/
 }
 .fupload{
 	height:46px;
@@ -331,7 +331,7 @@ a.zhuixinshangchuan_active {
 .upload_photo > .close,.binding_account > .close,.message > .close,.lapiao_box > .close{
 	width: 34px;
 	height: 34px;
-	background: url('../img/campaign.png') no-repeat 0 -1039px;	
+	background: url('../img/campaign.png?dsjkdjsk') no-repeat 0 -1039px;	
 	position: absolute;
 	left: 454px;
 	top:16px;
@@ -353,7 +353,7 @@ a.zhuixinshangchuan_active {
 	width: 134px;
 	height: 43px;
 	line-height: 38px;
-	background: url('../img/campaign.png') no-repeat 0 0;	
+	background: url('../img/campaign.png?dsjkdjsk') no-repeat 0 0;	
 	position: absolute;
 	font-family: Hei;
 	font-size: 22px;
@@ -394,7 +394,7 @@ a.zhuixinshangchuan_active {
 	height: 261px;
 	position: relative;
 	display: none;
-	background: url('../img/campaign.png') no-repeat 0 -2565px;
+	background: url('../img/campaign.png?dsjkdjsk') no-repeat 0 -2565px;
 }
 .message > .pop_button{
 	position: absolute;
@@ -422,12 +422,12 @@ a.zhuixinshangchuan_active {
 	display: none;
 	width:512px;
 	height: 443px;
-	background: url('../img/campaign.png') no-repeat 0 -291px;
+	background: url('../img/campaign.png?dsjkdjsk') no-repeat 0 -291px;
 }
 .upload_photo >.photo_box,.lapiao_box >.photo_box{
 	width: 363px;
 	height: 272px;
-	background: url('../img/campaign.png') no-repeat 0 -742px;		
+	background: url('../img/campaign.png?dsjkdjsk') no-repeat 0 -742px;		
 	position: absolute;
 	left: 79px;
 	top:76px;
@@ -456,7 +456,7 @@ a.zhuixinshangchuan_active {
 	display: none;
 	width:526px;
 	height: 431px;
-	background: url('../img/campaign.png') no-repeat 0 -2003px;
+	background: url('../img/campaign.png?dsjkdjsk') no-repeat 0 -2003px;
 }
 .binding_account > .close{
 	position: absolute;
@@ -503,7 +503,7 @@ a.zhuixinshangchuan_active {
 	position: absolute;
 	left: 57px;
 	top:160px;
-	background: url('../img/campaign.png') no-repeat 0 -237px;
+	background: url('../img/campaign.png?dsjkdjsk') no-repeat 0 -237px;
 
 }
 .blinding_status1 > .account_input input{
@@ -518,7 +518,7 @@ a.zhuixinshangchuan_active {
 	top:162px;
 	width: 89px;
 	height: 43px;
-	background: url('../img/campaign.png') no-repeat 0 -136px;
+	background: url('../img/campaign.png?dsjkdjsk') no-repeat 0 -136px;
 	line-height: 38px;
 	position: absolute;
 	font-family: Hei;
@@ -531,7 +531,7 @@ a.zhuixinshangchuan_active {
 	background-position:-91px -136px;
 }
 .blinding_status1 > .signin{
-	background: url('../img/campaign.png') no-repeat 0 -56px;
+	background: url('../img/campaign.png?dsjkdjsk') no-repeat 0 -56px;
 	line-height: 38px;
 	position: absolute;
 	font-family: Hei;
@@ -575,7 +575,7 @@ a.zhuixinshangchuan_active {
 	height: 43px;
 	left:122px;
 	top:188px;
-	background: url('../img/campaign.png') no-repeat 0 0px;
+	background: url('../img/campaign.png?dsjkdjsk') no-repeat 0 0px;
 }
 .blinding_status2 > .to_status1:hover{
 	background-position: -134px 0px;
@@ -587,7 +587,7 @@ a.zhuixinshangchuan_active {
 	line-height: 38px;
 	left: 268px;
 	top:188px;
-	background: url('../img/campaign.png') no-repeat 0px -56px}
+	background: url('../img/campaign.png?dsjkdjsk') no-repeat 0px -56px}
 .blinding_status2 > .signin:hover{
 	background-position:-134px -56px;
 }
@@ -621,7 +621,7 @@ a.zhuixinshangchuan_active {
 .binding_account > .url_input{
 	width: 415px;
 	height: 43px;
-	background: url('../img/campaign.png') no-repeat 0 -185px;
+	background: url('../img/campaign.png?dsjkdjsk') no-repeat 0 -185px;
 	position: absolute;
 	left: 59px;
 	top: 323px;
@@ -662,7 +662,7 @@ a.zhuixinshangchuan_active {
 .left_button_h{
 	width: 54px;
 	height: 55px;
-	background: url('../img/campaign.png') no-repeat 0 -1100px;
+	background: url('../img/campaign.png?dsjkdjsk') no-repeat 0 -1100px;
 	position: absolute;
 	left: 0;
 	top:223px;
@@ -670,7 +670,7 @@ a.zhuixinshangchuan_active {
 .right_button_h{
 	width: 54px;
 	height: 55px;
-	background: url('../img/campaign.png') no-repeat 0px -1165px;
+	background: url('../img/campaign.png?dsjkdjsk') no-repeat 0px -1165px;
 	position: absolute;
 	left: 655px;
 	top:223px;
@@ -683,7 +683,7 @@ a.zhuixinshangchuan_active {
 .left_button_r{
 	width: 54px;
 	height: 55px;
-	background: url('../img/campaign.png') no-repeat -60px -1100px;
+	background: url('../img/campaign.png?dsjkdjsk') no-repeat -60px -1100px;
 	position: absolute;
 	left: 0px;
 	top:223px;
@@ -691,7 +691,7 @@ a.zhuixinshangchuan_active {
 .right_button_r{
 	width: 54px;
 	height: 55px;
-	background: url('../img/campaign.png') no-repeat -60px -1165px;
+	background: url('../img/campaign.png?dsjkdjsk') no-repeat -60px -1165px;
 	position: absolute;
 	left: 655px;
 	top:223px;
@@ -702,7 +702,7 @@ a.zhuixinshangchuan_active {
 	position: absolute;
 	left: 60px;
 	top: 0;
-	background: url('../img/campaign.png') no-repeat 0px -1291px;
+	background: url('../img/campaign.png?dsjkdjsk') no-repeat 0px -1291px;
 }
 .photo_preview1{
 	display: none;
@@ -761,7 +761,7 @@ a.zhuixinshangchuan_active {
 	top: 489px;
 	width: 134px;
 	height: 43px;
-	background: url('../img/campaign.png') no-repeat 0px 0px;
+	background: url('../img/campaign.png?dsjkdjsk') no-repeat 0px 0px;
 }
 .photo_preview .like:hover,.photo_preview1 .like:hover{
 	background-position:-134px 0px;
@@ -779,7 +779,7 @@ a.zhuixinshangchuan_active {
 	top: 489px;
 	width: 134px;
 	height: 43px;
-	background: url('../img/campaign.png') no-repeat 0px -56px;
+	background: url('../img/campaign.png?dsjkdjsk') no-repeat 0px -56px;
 }
 .photo_preview .to_wb:hover,.photo_preview1 .to_wb:hover{
 	background-position:-134px -56px;
@@ -797,7 +797,7 @@ a.zhuixinshangchuan_active {
 	position: relative;
 	top: 0px;
 	float: left;
-	background: url("../img/image.png") no-repeat scroll 0 -2190px transparent;
+	background: url("../img/image.png?dsjkdjsk") no-repeat scroll 0 -2190px transparent;
     height: 12px;
     margin-right: 4px;
     overflow: hidden;
@@ -807,7 +807,7 @@ a.zhuixinshangchuan_active {
 	position: relative;
 	top: 0px;
 	float: left;
-	background: url("../img/image.png") no-repeat scroll -17px -2190px transparent;
+	background: url("../img/image.png?dsjkdjsk") no-repeat scroll -17px -2190px transparent;
     height: 12px;
     margin-right: 4px;
     overflow: hidden;
@@ -835,12 +835,12 @@ a.zhuixinshangchuan_active {
 	height:531px;
 	position: relative;
 	display: none; 
-	background: url('../img/campaign.png') no-repeat 0px -2867px;
+	background: url('../img/campaign.png?dsjkdjsk') no-repeat 0px -2867px;
 }
 .detail > .close {
 	width: 34px;
 	height: 34px;
-	background: url('../img/campaign.png') no-repeat 0 -1039px;	
+	background: url('../img/campaign.png?dsjkdjsk') no-repeat 0 -1039px;	
 	position: absolute;
 	left: 454px;
 	top:16px;
@@ -911,7 +911,7 @@ a.zhuixinshangchuan_active {
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 	width: 100%;
 	background-attachment: scroll;
-	background-image: url(../images/bgbg.png);
+	background-image: url(../images/bgbg.png?dsjkdjsk);
 	background-repeat: repeat;
 	background-position: 0 0;
 }
@@ -930,7 +930,7 @@ a.zhuixinshangchuan_active {
 
 
 #head h2 {
-    background: url("../images/logo.png") no-repeat scroll 0 0 transparent;
+    background: url("../images/logo.png?dsjkdjsk") no-repeat scroll 0 0 transparent;
     left: 0;
     text-indent: -9999px;
 }
@@ -973,7 +973,7 @@ p, ul, li {
 }
 
 .menu li a {
-    background: url("../images/btn_menu.png") no-repeat scroll 0 0 transparent;
+    background: url("../images/btn_menu.png?dsjkdjsk") no-repeat scroll 0 0 transparent;
     cursor: pointer;
     display: block;
     font-size: 0;
